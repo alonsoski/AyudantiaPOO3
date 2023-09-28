@@ -3,6 +3,14 @@ public class Libro {
     private String editorial;
     private String autor;
 
+    public Libro(String nombre, String editorial, String autor){
+        this.nombre = nombre;
+        this.editorial = editorial;
+        this.autor = autor;
+    }
+    public Libro(){
+
+    }
     public String getNombre() {
         return nombre;
     }

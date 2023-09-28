@@ -4,7 +4,14 @@ public class Biblioteca {
     private ArrayList<Libro> libros;
     private String nombreBiblio;
     private String direccion;
+    public Biblioteca(ArrayList<Libro> libros, String nombreBiblio, String direccion){
+        this.libros = libros;
+        this.nombreBiblio = nombreBiblio;
+        this.direccion = direccion;
+    }
+    public Biblioteca(){
 
+    }
 
     public ArrayList<Libro> getLibros() {
         return libros;
