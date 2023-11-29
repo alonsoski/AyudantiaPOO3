@@ -1,3 +1,5 @@
+package modelo;
+
 public class Libro {
     private String nombre;
     private String editorial;
@@ -33,5 +35,11 @@ public class Libro {
 
     public void setEditorial(String editorial) {
         this.editorial = editorial;
+    }
+
+    @Override
+    public String toString() {
+        String retorno=this.nombre+";"+this.editorial+";"+this.autor;
+        return retorno;
     }
 }
